@@ -75,7 +75,8 @@ Contributions are welcome! To contribute:
 ## 🧪 Tests  
 To run tests, use:  
 ```bash
-npm test```
+npm test
+```
 
 ## ❓ Questions  
 For questions, reach out:  
