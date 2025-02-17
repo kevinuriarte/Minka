@@ -1,0 +1,30 @@
+{
+  "name": "minka",
+  "version": "1.0.0",
+  "description": "[![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://lbesson.mit-license.org/)   ## Table of Contents   * [Description](#description)   * [Installation](#installation)   * [Usage](#usage)   * [Licenses](#licenses)   * [Contributing](#contributing)   * [Tests](#tests)   * [Questions](#questions)   * [Credits](#credits)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinuriarte/Minka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinuriarte/Minka/issues"
+  },
+  "homepage": "https://github.com/kevinuriarte/Minka#readme",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.5"
+  }
+}

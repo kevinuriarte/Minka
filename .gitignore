@@ -1,0 +1,12 @@
+# Ignore config files with sensitive credentials
+config/config.json
+.env
+
+# Ignore node modules and dependencies
+node_modules/
+package-lock.json
+
+# Ignore database files and logs
+*.log
+*.sqlite
+.DS_Store
