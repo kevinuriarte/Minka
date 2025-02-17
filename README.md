@@ -30,20 +30,27 @@ To set up Minka on your local machine, follow these steps:
 
 ```bash
 # Clone the repository
+```bash
 git clone https://github.com/kevinuriarte/Minka.git  
-cd Minka  
+cd Minka
+```markdown
 
 # Install dependencies
+```bash
 npm install  
-
-# Set up environment variables  
+```markdown
+# Set up environment variables 
+```bash 
 cp .env.example .env  # Then update .env with your MySQL credentials  
-
-# Run database migrations  
+```markdown
+# Run database migrations 
+```bash 
 npx sequelize-cli db:migrate  
-
-# Start the application  
+```markdown
+# Start the application
+```bash
 npm start  
+```markdown
 
 ## 🚀 Usage  
 1. **Sign Up / Log In** - Create an account to interact.  
@@ -76,7 +83,7 @@ Contributions are welcome! To contribute:
 To run tests, use:  
 ```bash
 npm test
-```
+```markdown
 
 ## ❓ Questions  
 For questions, reach out:  
