@@ -44,7 +44,8 @@ npx sequelize-cli db:migrate
 
 # Start the application
 npm start
-```markdown
+
+```
 
 ## 🚀 Usage  
 1. **Sign Up / Log In** - Create an account to interact.  
@@ -77,7 +78,7 @@ Contributions are welcome! To contribute:
 To run tests, use:  
 ```bash
 npm test
-```markdown
+```
 
 ## ❓ Questions  
 For questions, reach out:  
